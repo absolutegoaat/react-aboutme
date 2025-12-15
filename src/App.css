@@ -21,16 +21,20 @@
   gap: 20px;
   align-items: center;
   justify-content: flex-start;
-  background: linear-gradient(135deg, 
-    #1a2520 0%, 
-    #2a3540 25%, 
-    #3d2a45 50%, 
-    #4a2f42 75%, 
-    #5a4050 100%
-  );
+
+  background-image: url("./ralseibg.png");
+  background-size: cover;       /* fills the screen */
+  background-position: center;  /* centers the image */
+  background-repeat: no-repeat;
+
+  overflow-y: scroll;   /* allow scrolling */
+  scrollbar-width: none; /* Firefox */
   color: var(--text);
 }
 
+.App-header::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
 
 /* Card layout */
 .container {
