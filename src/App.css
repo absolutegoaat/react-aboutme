@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 :root {
   --bg: #0b1411;
   --glass: rgba(255, 255, 255, 0.05);
@@ -48,7 +49,7 @@
 /* Shared card styles */
 .small-card,
 .large-card {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--glass-2);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius);
