@@ -250,3 +250,111 @@ iframe {
 .muted {
   color: var(--muted);
 }
+
+/* =========================
+   Mobile & Tablet Support
+   ========================= */
+
+/* Tablets & smaller laptops */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .large-card,
+  .small-card {
+    flex: 1;
+  }
+}
+
+/* Phones */
+@media (max-width: 768px) {
+  .App-header {
+    padding: 20px;
+    gap: 16px;
+    min-height: 100svh; /* better mobile viewport handling */
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .small-card,
+  .large-card {
+    padding: 18px;
+    border-radius: 14px;
+  }
+
+  .small-card h1 {
+    font-size: 1.4rem;
+  }
+
+  .small-card p {
+    font-size: 0.95rem;
+  }
+
+  .status-row {
+    margin-top: 16px;
+  }
+
+  /* Tabs scroll nicely on mobile */
+  .tabs {
+    gap: 6px;
+    padding: 6px;
+  }
+
+  .tabs button {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+  }
+
+  /* Images scale better */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .App-header {
+    padding: 14px;
+  }
+
+  .small-card,
+  .large-card {
+    padding: 14px;
+  }
+
+  .small-card h1 {
+    font-size: 1.25rem;
+  }
+
+  .gradientText {
+    font-size: 1.1rem;
+  }
+
+  .stat-row img {
+    max-width: 100%;
+  }
+}
+
+/* =========================
+   Touch Optimization
+   ========================= */
+
+/* Disable hover lift on touch devices */
+@media (hover: none) {
+  .small-card:hover,
+  .large-card:hover,
+  .stat-row img:hover,
+  .project-buttons:hover {
+    transform: none;
+    box-shadow: var(--shadow);
+  }
+}
