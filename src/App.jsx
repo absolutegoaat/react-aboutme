@@ -81,15 +81,28 @@ function LargeInfo() {
               <li>
                 <strong>Languages:</strong>
                 <iframe
-                  src="https://skillicons.dev/icons?i=py,cs,c,java,html,css,js,windows,react"
+                  src="https://skillicons.dev/icons?i=py,cs,cpp,html,css,js,windows"
                   style={{ border: 0, margin: '5px', width: '100%', height: '50px' }}
                   title="languages"
                 />
+                <strong>Frameworks:</strong>
+                <iframe
+                  src="https://skillicons.dev/icons?i=dotnet,react,nodejs,express,flask"
+                  style={{ border: 0, margin: '5px', width: '100%', height: '50px' }}></iframe>
+                  <p>I know Ext JS its just not on skillicons</p>
+                <strong>Databases:</strong>
+                <iframe
+                  src="https://skillicons.dev/icons?i=mysql,sqlite"
+                  style={{ border: 0, margin: '5px', width: '100%', height: '50px' }}></iframe>
               </li>
               <li>
                 <strong>Reverse Engineering: </strong>x64dbg, x32dbg, Ghidra
               </li>
             </ul>
+            <p>
+              you can call me "goat" for short, im a .NET developer, full stack web developer, API Developer, Malware Developer,
+              Exploit Developer, and Mainly a software engineer.
+            </p>
             <p>
               i just chill and play <span className='gradientText'>deltarune</span> if i
               were to be honest, anyway, welcome to my little corner of the internet
