@@ -20,7 +20,7 @@ function SmallInfo() {
       <p>Software I use</p>
       <ul>
         <li>Visual Studio Code</li>
-        <li>Visual Studio 2022</li>
+        <li>Visual Studio 20XX</li>
         <li>Fork (Git Client)</li>
         <li>x64dbg/x32dbg</li>
         <li>Ghidra</li>
